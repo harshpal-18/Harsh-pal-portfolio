@@ -1,20 +1,85 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🌐 Harsh Pal – Developer Portfolio
 
-# Run and deploy your AI Studio app
+A modern, aesthetic, and responsive personal portfolio website built using **React + TypeScript + Tailwind CSS + Framer Motion**.
 
-This contains everything you need to run your app locally.
+This portfolio showcases my projects, skills, achievements, and contact information in a clean and interactive UI.
 
-View your app in AI Studio: https://ai.studio/apps/8b34af07-11fa-4a36-b505-a4300e52b183
+---
 
-## Run Locally
+## 🔥 Live Preview
 
-**Prerequisites:**  Node.js
+👉 (Add your deployed link here after hosting)
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React (Vite)
+- 🟦 TypeScript
+- 🎨 Tailwind CSS
+- 🎬 Framer Motion (Animations)
+- 📧 EmailJS (Contact Form Integration)
+- 🌙 Dark Mode Support
+
+---
+
+## ✨ Features
+
+- Smooth scroll navigation
+- Animated UI elements
+- Responsive design (Mobile + Tablet + Desktop)
+- Download Resume functionality
+- Interactive contact form with EmailJS
+- Modern aesthetic UI design
+- Optimized performance
+
+---
+
+## 📂 Project Structure
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+harsh-pal-portfolio/
+│
+├── public/
+├── src/
+│ ├── assets/
+│ ├── App.tsx
+│ ├── main.tsx
+│ ├── index.css
+│
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
+
+
+---
+
+## 📸 Sections Included
+
+- About
+- Education
+- Journey
+- Skills
+- Projects
+- Honours
+- Contact
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/harshpal-18/Harsh-pal-portfolio.git
+2️⃣ Install dependencies
+npm install
+3️⃣ Run locally
+npm run dev
+📬 Contact
+
+📧 Email: its.me.harshp0@gmail.com
+
+🔗 LinkedIn: https://www.linkedin.com/in/harsh-pal-018h
+
+💻 GitHub: https://github.com/harshpal-18
