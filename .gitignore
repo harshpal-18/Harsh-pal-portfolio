@@ -1,0 +1,5 @@
+# in your project root
+echo "node_modules
+dist
+.env
+.env.local" > .gitignore
