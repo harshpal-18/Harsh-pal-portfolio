@@ -1,0 +1,5 @@
+echo '{
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
+  "installCommand": "npm install"
+}' > vercel.json
