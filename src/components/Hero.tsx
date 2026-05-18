@@ -88,7 +88,7 @@ export default function Hero() {
             >
               <SplitText text="Hey, I'm" delay={0.3} /><br />
               <SplitText
-                text="Harsh"
+                text="Harsh Pal"
                 delay={0.5}
                 style={{
                   background: `linear-gradient(to right, var(--name-gradient-from), var(--name-gradient-to))`,
