@@ -1,83 +1,97 @@
-🚀 Harsh Pal — Developer Portfolio
+# 🚀 Harsh Pal — Developer Portfolio
 
-A modern, responsive, and premium personal portfolio website built to showcase my projects, skills, experience, and passion for frontend development, UI/UX, and modern web technologies.
+A modern, responsive, and premium personal portfolio website.
 
-✨ Features
-🎨 Modern premium UI/UX
-🌙 Light & Dark Theme Support
-⚡ Smooth animations with Framer Motion
-📱 Fully Responsive Design
-🧩 Interactive Project Showcase
-🛠️ Skills & Experience Timeline
-🔗 GitHub & Live Demo Integration
-🚀 Optimized Performance
-🛠️ Tech Stack
-React
-TypeScript
-Tailwind CSS
-Framer Motion
-Vite
-Lucide React
-Firebase
-```
-📂 Project Structure
-harsh-pal-portfolio/
-│
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── sections/
-│   ├── App.tsx
-│   ├── main.tsx
-│   └── index.css
-│
-├── package.json
-├── tsconfig.json
-└── vite.config.ts
-```
-🚀 Getting Started
-###
-1️⃣ Clone the repository
+---
+
+## ✨ Features
+
+- 🎨 Modern premium UI/UX
+- 🌙 Light & Dark Theme
+- ⚡ Framer Motion Animations
+- 📱 Fully Responsive
+- 🔗 GitHub & Live Demo Integration
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Vite
+- Firebase
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
 git clone https://github.com/harshpal-18/your-portfolio.git
-###
-2️⃣ Navigate into the project
+```
+
+### 2️⃣ Navigate into the project
+
+```bash
 cd your-portfolio
-###
-3️⃣ Install dependencies
+```
+
+### 3️⃣ Install dependencies
+
+```bash
 npm install
-###
-4️⃣ Start development server
+```
+
+### 4️⃣ Start development server
+
+```bash
 npm run dev
-###
-🌐 Live Demo ###
-Add your deployed link here: https://harsh-pal-portfolio.vercel.app
-###
-📸 Preview
+```
+
+---
+
+## 🌐 Live Demo
+
+https://your-portfolio.vercel.app
+
+---
+
+## 📸 Preview
 
 Modern responsive portfolio with premium dark/light UI and smooth interactions.
 
-🧠 About Me
+---
 
-I'm passionate about building modern digital experiences with clean UI, responsive layouts, and interactive frontend development. I enjoy creating scalable applications and exploring AI-powered web technologies.
+## 🧠 About Me
 
-📬 Connect With Me
-###
-GitHub: https://github.com/harshpal-18
-###
-LinkedIn: https://www.linkedin.com/in/harsh-pal-018h
-###
-Instagram: https://www.instagram.com/_harsh_._pal_/?__pwa=1#
-###
-⭐ Future Improvements
-Blog Section
-AI Integrations
-Advanced Project Filters
-Multi-language Support
-CMS Integration
-###
-📄 License
+I'm passionate about building modern digital experiences with clean UI and interactive frontend development.
 
-This project is open-source and available under the MIT License.
+---
 
-✨ Designed & Developed by Harsh Pal
+## 📬 Connect With Me
+
+- GitHub: https://github.com/harshpal-18
+- LinkedIn: https://www.linkedin.com/in/harsh-pal-018h
+- Instagram: https://www.instagram.com/_harsh._pal_/
+
+---
+
+## ⭐ Future Improvements
+
+- Blog Section
+- AI Integrations
+- Advanced Project Filters
+- Multi-language Support
+
+---
+
+## 📄 License
+
+This project is open-source under the MIT License.
+
+---
+
+# ✨ Designed & Developed by Harsh Pal
