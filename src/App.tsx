@@ -9,6 +9,7 @@ import Experience from './components/Experience'
 import FAQ from './components/FAQ'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import LoadingScreen from './components/LoadingScreen'
 
 function AppContent() {
   const [scrollProgress, setScrollProgress] = useState(0)
@@ -63,6 +64,7 @@ function AppContent() {
 export default function App() {
   return (
     <ThemeProvider>
+      <LoadingScreen />
       <AppContent />
     </ThemeProvider>
   )
