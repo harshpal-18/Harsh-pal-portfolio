@@ -270,6 +270,30 @@ body {
               color 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+/* ═══════════════ GPU PERFORMANCE ═══════════════ */
+/* Forces browser to use GPU compositing — makes all animations smoother */
+section {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+.premium-card {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Prevent layout thrashing on animated elements */
+[data-framer-motion] {
+  will-change: transform, opacity;
+}
+
+/* Smooth rendering for images */
+img {
+  image-rendering: -webkit-optimize-contrast;
+  transform: translateZ(0);
+}
+
 /* ═══════════════ SCROLLBAR ═══════════════ */
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: transparent; }
