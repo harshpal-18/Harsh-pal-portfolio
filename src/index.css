@@ -271,10 +271,10 @@ body {
 }
 
 /* ═══════════════ GPU PERFORMANCE ═══════════════ */
-/* Forces browser to use GPU compositing — makes all animations smoother */
 section {
   transform: translateZ(0);
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .premium-card {
@@ -283,12 +283,6 @@ section {
   -webkit-backface-visibility: hidden;
 }
 
-/* Prevent layout thrashing on animated elements */
-[data-framer-motion] {
-  will-change: transform, opacity;
-}
-
-/* Smooth rendering for images */
 img {
   image-rendering: -webkit-optimize-contrast;
   transform: translateZ(0);
@@ -491,4 +485,19 @@ img {
 @media (max-width: 768px) {
   .section-heading { font-size: 2.1rem; }
   .section-container { padding: 100px 20px; }
+
+  /* Reduce backdrop-filter cost on mobile — biggest GPU win */
+  .premium-card {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  /* Hide cursor glow on mobile — not needed + costs GPU */
+  .cursor-glow { display: none; }
+
+  /* Hide grid texture on mobile — saves paint cost */
+  .subtle-grid { display: none; }
+
+  /* Reduce noise overlay opacity on mobile */
+  .noise-overlay { opacity: 0.01; }
 }
