@@ -37,19 +37,22 @@ harsh-pal-portfolio/
 └── vite.config.ts
 ```
 🚀 Getting Started
+###
 1️⃣ Clone the repository
 git clone https://github.com/harshpal-18/your-portfolio.git
+###
 2️⃣ Navigate into the project
 cd your-portfolio
+###
 3️⃣ Install dependencies
 npm install
+###
 4️⃣ Start development server
 npm run dev
-🌐 Live Demo
-
-Add your deployed link here:
-
-https://your-portfolio.vercel.app
+###
+🌐 Live Demo ###
+Add your deployed link here: https://harsh-pal-portfolio.vercel.app
+###
 📸 Preview
 
 Modern responsive portfolio with premium dark/light UI and smooth interactions.
@@ -61,7 +64,9 @@ I'm passionate about building modern digital experiences with clean UI, responsi
 📬 Connect With Me
 ###
 GitHub: https://github.com/harshpal-18
+###
 LinkedIn: https://www.linkedin.com/in/harsh-pal-018h
+###
 Instagram: https://www.instagram.com/_harsh_._pal_/?__pwa=1#
 ###
 ⭐ Future Improvements
@@ -70,6 +75,7 @@ AI Integrations
 Advanced Project Filters
 Multi-language Support
 CMS Integration
+###
 📄 License
 
 This project is open-source and available under the MIT License.
